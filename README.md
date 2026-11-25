@@ -24,4 +24,3 @@ Polls BSC JSON-RPC endpoints, fetches the latest block, and measures its age
 v0.1.0 — freshness monitor. Planned: WebSocket subscriptions, log indexing,
 freshness-guaranteed data API (see docs).
 
-OO
