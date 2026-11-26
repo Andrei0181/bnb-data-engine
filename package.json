@@ -3,10 +3,15 @@
   "version": "0.1.0",
   "description": "Blockchain data processing and freshness monitoring for BNB Chain",
   "type": "module",
-  "bin": { "bnb-data-engine": "./src/engine.mjs" },
-  "scripts": { "start": "node src/engine.mjs", "test": "node --test tests/" },
+  "bin": {
+    "bnb-data-engine": "./src/engine.mjs"
+  },
+  "scripts": {
+    "start": "node src/engine.mjs",
+    "test": "node --test \"freshnessseller/tests/**/*.test.ts\""
+  },
   "license": "MIT",
-  "engines": { "node": ">=18" }
+  "engines": {
+    "node": ">=18"
+  }
 }
-
-
